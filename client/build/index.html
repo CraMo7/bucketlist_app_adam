@@ -3,12 +3,20 @@
 <head>
   <title>Bucket List Countries</title>
   <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src="bundle.js"></script>
 </head>
 <body>
   <div id="stuff">
   <h2>Bucket List</h2>
   <h4>Countries to visit before you run out of buckets</h4>
-
+  <form id="country-form"action="/countries" method="post">
+    <label for="country">Country:</label>
+    <select id="country">
+      
+    </select>
+    <label for="reason">Reason: </label><input type="text" id="reason">
+    <input type="submit">
+  </form>
   <ul id="countries-list">
     
   </ul>

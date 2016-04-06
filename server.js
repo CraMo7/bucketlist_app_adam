@@ -25,6 +25,11 @@ app.get("/countries", function(req, res){
   });// [end] MongoClient connect
 });// [end] route
 
+app.post("/countries", function(req, res){
+  //save to db
+});
+
+
 app.use(express.static('client/build'));
 // ^ lets express know where resources (bundle.js, styles.css, images etc.) are located on your server.
 
