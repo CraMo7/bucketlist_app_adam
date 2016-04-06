@@ -1,0 +1,16 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+}
+
+body {
+  background-color: #00b8b8;
+}
+
+div#stuff {
+  background-color: rgba(222, 61, 131, 0.4);
+  display: inline-block;
+  border-radius: 15px;
+  padding: 1%;
+}
